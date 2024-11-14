@@ -19,6 +19,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
 .header-content {
     display: flex;
     justify-content: space-between;
