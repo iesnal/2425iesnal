@@ -15,16 +15,29 @@ header nav a {
     text-decoration: none;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logo {
-    width: 150px; /* Ajusta el tamaño según sea necesario */
+    width: 50px; /* Ajusta el tamaño según sea necesario */
     height: auto;
+}
+
+.logo-container h1 {
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
 }
 
 .receta {
