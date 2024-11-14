@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    max-width:90%;
 }
 
 header {
@@ -43,7 +42,7 @@ main {
     height: auto;
     position: absolute;
     margin-top: -60px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .logo-container h1 {
