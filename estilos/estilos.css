@@ -126,6 +126,10 @@ main {
     margin-bottom: 5px;
 }
 
+.form-group div label {
+    margin-right: 15px;
+}
+
 .form-group input,
 .form-group textarea {
     width: 100%;
