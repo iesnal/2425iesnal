@@ -126,8 +126,14 @@ main {
     margin-bottom: 5px;
 }
 
-.form-group div label {
-    margin-right: 15px;
+.sexo-opciones {
+    display: flex;
+    gap: 15px;
+}
+
+.sexo-opciones label {
+    display: flex;
+    align-items: center;
 }
 
 .form-group input,
