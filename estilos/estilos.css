@@ -92,6 +92,24 @@ main {
     margin-top: 20px;
 }
 
+.historia {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.historia-texto {
+    flex: 2;
+}
+
+.historia-imagen {
+    flex: 1;
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
 ul, ol {
     margin-left: 20px;
 }
