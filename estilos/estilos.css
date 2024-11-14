@@ -15,6 +15,19 @@ header nav a {
     text-decoration: none;
 }
 
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
 .receta {
     border: 1px solid #ddd;
     padding: 20px;
