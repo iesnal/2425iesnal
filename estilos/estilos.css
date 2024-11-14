@@ -55,7 +55,6 @@ nav a:hover {
     background-color: #f9f9f9;
 }
 
-/* Ajuste del contenedor de receta */
 .receta-header {
     display: flex;
     justify-content: space-between;
@@ -64,23 +63,20 @@ nav a:hover {
     background-color: #eee;
     border-radius: 5px;
     margin-bottom: 15px;
-    gap: 10px; /* Espacio entre nombre y imagen */
+    gap: 10px;
 }
-
-/* Ajuste del nombre de la receta */
 .receta-nombre {
-    flex: 1; /* Ocupar todo el espacio disponible a la izquierda */
+    flex: 1;
     font-size: 1.5em;
     color: #333;
     margin: 0;
 }
 
-/* Ajuste de la imagen */
 .receta-imagen {
-    width: 150px; /* Ajusta el tamaño según sea necesario */
+    width: 150px;
     height: auto;
     border-radius: 5px;
-    flex-shrink: 0; /* Evita que la imagen se reduzca */
+    float: right;
 }
 .receta h3 {
     color: #333;
