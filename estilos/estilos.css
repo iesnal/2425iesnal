@@ -1,21 +1,26 @@
+/* Estilos básicos */
 body {
     font-family: Arial, sans-serif;
 }
 
-header {
+header, footer {
     background-color: #333;
     color: white;
-    padding: 10px 0;
     text-align: center;
+    padding: 10px 0;
 }
 
-nav a {
+header {
+    margin-bottom: 20px;
+}
+
+nav a, .boton {
     color: white;
-    margin: 0 10px;
     text-decoration: none;
+    margin: 0 10px;
 }
 
-nav a:hover {
+nav a:hover, .boton:hover {
     text-decoration: underline;
 }
 
@@ -23,14 +28,18 @@ main {
     max-width: 80%;
     margin: 0 auto;
 }
-.header-content {
+
+/* Contenedor general del encabezado */
+.header-content, .botones-navegacion {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 15px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Logo en el encabezado */
 .logo-container {
     display: flex;
     align-items: center;
@@ -39,166 +48,68 @@ main {
 
 .logo {
     width: 100px;
-    height: auto;
-    position: absolute;
-    margin-top: -60px;
-    margin-left: 40px;
+    margin: -60px 0 0 40px;
 }
 
-.logo-container h1 {
-    color: white;
-    font-size: 1.2em;
-    margin: 0;
+/* Titulares */
+h1, h2, h3 {
+    color: #333;
+    margin: 0 0 10px;
 }
-.intro, .mision, .valores {
+
+.intro p, .mision p, .valores ul, .evento p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Secciones principales con imagen */
+.intro, .mision, .valores, .evento, .historia, .formulario-contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-.intro h2, .mision h3, .valores h3 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.intro p, .mision p, .valores ul {
-    line-height: 1.6;
-    color: #555;
-}
-
-.valores ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.valores li {
-    margin-bottom: 10px;
-}
-
-.imagen-representativa {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.sociedad-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.botones-navegacion {
+.historia {
     display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 20px;
 }
 
-.boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.boton:hover {
-    background-color: #555;
-}
-
-.evento {
-    margin-bottom: 30px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-}
-
-.evento h3 {
-    color: #333;
-    margin-bottom: 5px;
-}
-
-.evento p {
-    color: #555;
-    line-height: 1.6;
-}
-
-.evento-img {
+/* Imagen en secciones */
+.sociedad-img, .evento-img, .historia-imagen {
     width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    margin: 15px auto 0;
+    max-width: 50%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Recetas */
 .receta {
     border: 1px solid #ddd;
-    padding: 20px;
     margin: 20px 0;
-    border-radius: 5px;
-    background-color: #f9f9f9;
 }
 
 .receta-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     background-color: #eee;
     border-radius: 5px;
-    margin-bottom: 15px;
-    gap: 10px;
+    padding: 10px;
 }
+
 .receta-nombre {
-    flex: 1;
     font-size: 1.5em;
     color: #333;
-    margin: 0;
 }
 
-.receta-imagen img{
+.receta-imagen img {
     width: 150px;
-    height: auto;
-    border-radius: 5px;
-    float: right;
-}
-.receta h3 {
-    color: #333;
-    margin-top: 0;
-}
-
-.receta h4 {
-    color: #666;
-    margin-top: 20px;
-}
-
-.historia {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-}
-
-.historia-texto {
-    flex: 2;
-}
-
-.historia-imagen{
-    flex: 1;
-    max-width: 50%;
-    height: auto;
     border-radius: 5px;
 }
 
-.formulario-contacto {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
+/* Formularios */
 .form-group {
     margin-bottom: 15px;
 }
@@ -209,48 +120,31 @@ main {
     margin-bottom: 5px;
 }
 
-.sexo-opciones {
-    display: flex;
-    gap: 55px;
-}
-
-.sexo-opciones label {
-    display: flex;
-    align-items: center;
-}
-
-.form-group input,
-.form-group textarea {
+.form-group input, .form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-sizing: border-box;
 }
 
-button {
-    background-color: #333;
-    color: white;
+.sexo-opciones {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+/* Botones */
+.boton, button {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-button:hover {
-    background-color: #555;
-}
-
-
-ul, ol {
-    margin-left: 20px;
-}
-
-footer {
     background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
     margin-top: 20px;
+}
+
+.boton:hover, button:hover {
+    background-color: #555;
 }
