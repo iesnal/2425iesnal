@@ -57,23 +57,24 @@ nav a:hover {
 
 .receta-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
     margin-bottom: 15px;
 }
 
 .receta-nombre {
-    background-color: #eee;
-    padding: 10px;
-    border-radius: 5px;
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
 }
 
 .receta-imagen {
-    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 150px; /* Ajusta el tamaño según sea necesario */
     height: auto;
     border-radius: 5px;
-    float: right;
-}
 
 .receta h3 {
     color: #333;
