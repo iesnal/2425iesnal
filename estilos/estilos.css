@@ -15,7 +15,6 @@ header nav a {
     text-decoration: none;
 }
 
-
 .logo-container {
     display: flex;
     align-items: center;
@@ -24,7 +23,7 @@ header nav a {
 }
 
 .logo {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
+    width: 150px; /* Ajusta el tamaño según sea necesario */
     height: auto;
 }
 
