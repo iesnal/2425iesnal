@@ -37,6 +37,8 @@ nav a:hover {
     width: 100px; /* Ajusta el tamaño según sea necesario */
     height: auto;
     position: absolute;
+    margin-top: -60px;
+    margin-left: 20px;
 }
 
 .logo-container h1 {
