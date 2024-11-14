@@ -9,10 +9,14 @@ header {
     text-align: center;
 }
 
-header nav a {
+nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .header-content {
