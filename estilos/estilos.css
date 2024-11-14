@@ -104,8 +104,7 @@ main {
 
 .historia-imagen img{
     flex: 1;
-    width: 100%; /* Ajusta el ancho de la imagen */
-    max-width: 300px;
+    max-width: 50%;
     height: auto;
     border-radius: 5px;
 }
