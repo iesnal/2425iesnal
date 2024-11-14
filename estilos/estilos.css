@@ -38,7 +38,7 @@ main {
 }
 
 .logo {
-    width: 100px; /* Ajusta el tamaño según sea necesario */
+    width: 100px;
     height: auto;
     position: absolute;
     margin-top: -60px;
@@ -50,7 +50,40 @@ main {
     font-size: 1.2em;
     margin: 0;
 }
+.intro, .mision, .valores {
+    margin-bottom: 20px;
+}
 
+.intro h2, .mision h3, .valores h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p, .mision p, .valores ul {
+    line-height: 1.6;
+    color: #555;
+}
+
+.valores ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.valores li {
+    margin-bottom: 10px;
+}
+
+.imagen-representativa {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sociedad-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .receta {
     border: 1px solid #ddd;
     padding: 20px;
