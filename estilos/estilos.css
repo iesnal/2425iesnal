@@ -128,7 +128,7 @@ main {
 
 .sexo-opciones {
     display: flex;
-    gap: 15px;
+    gap: 55px;
 }
 
 .sexo-opciones label {
