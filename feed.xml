@@ -11,7 +11,7 @@
       <title>Actualización de nuestra historia</title>
       <link>https://iesnal.github.io/2425iesnal/historia.html/</link>
       <description>Se ha cambiado el apartado historia de nuestra página web.</description>
-      <pubDate>Sun, 11 Feb 2025 12:00:00 +0000</pubDate> <!-- Usa la fecha y hora actual -->
+      <pubDate>Mon, 11 Feb 2025 12:00:00 +0000</pubDate> <!-- Usa la fecha y hora actual -->
     </item>
 
     <!-- Segundo item -->
@@ -19,7 +19,7 @@
       <title>Nuevo evento</title>
       <link>https://iesnal.github.io/2425iesnal/eventos.html</link>
       <description>Proximamente realizaremos un nuevo evento.</description>
-      <pubDate>Sun, 11 Feb 2025 12:00:00 +0000</pubDate> <!-- Usa la fecha y hora actual -->
+      <pubDate>Mon, 11 Feb 2025 12:00:00 +0000</pubDate> <!-- Usa la fecha y hora actual -->
     </item>
     
   </channel>
